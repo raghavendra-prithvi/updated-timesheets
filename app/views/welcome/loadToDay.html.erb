@@ -1,0 +1,142 @@
+<%selectArray = [["Please Select", ""]] %>
+<%Project.find_each do |p|%>
+<%selectArray << [p.name, p.id]%>
+<%end%>
+<% if !@todayRecs.empty? %>
+  <% @todayRecs.each do |t| %>
+    <tr id="lastRow">
+      <td>
+        <%=hidden_field_tag 'hiddenId', t.id%>
+        <%= select_tag 'project', options_for_select(selectArray,t.project_id), :disabled => true, :class => "project" %>
+      </td>
+      <td>
+        <input id="today" disabled="true" name="today" type="text" placeholder="Hours" class="today form-control" value=<%= t.hours %>  />
+      </td>
+      <td>
+        <input type="button" class="btn btn-success save-btn" id="save" value="Edit"></input>
+      </td>
+      <td>
+        <input type="button" class="btn btn-large btn-danger remove-btn" id="remove" value="Remove"></input>
+      </td>
+    </tr>
+  <% end %>
+<% else %>
+  <tr id="lastRow">
+    <td>
+      <input type="hidden" id="hiddenId" name="hiddenId" />
+      <select id="project" name="project" class="project" >
+      <option value=''>Please Select</option>
+      <% Project.find_each do |projectrow| %>
+      <option value='<%=projectrow.id%>'><%=projectrow.name%></option>
+      <%end%>
+    </select>
+    </td>
+    <td>
+      <input id="today" name="today" type="text" placeholder="Hours" class="today form-control" />
+    </td>
+    <td>
+      <input type="button" class="btn btn-success save-btn" id="save" value="Save"></input>
+    </td>
+    <td>
+      <input type="button" class="btn btn-large btn-danger remove-btn" id="remove" value="Remove"></input>
+    </td>
+  </tr>
+<% end %>
+
+<script type="text/javascript">
+    $(".save-btn").click(function(){
+        input =  $(this);
+        var todayValue = $("#txtDate").val();
+        var ip1 = input.parent().prev().children('input');
+        var sp1 = input.parent().prev().prev().children('select');
+        var hd1 = input.parent().prev().prev().children('input');
+        if(input.attr('value') == "Edit"){
+          input.attr('value', "Save");
+          ip1.attr('disabled',false);
+          sp1.attr('disabled',false);
+        }
+        else{
+          if(ip1.val() == '' || ip1.val() == undefined){
+            alert("Please enter the no. of hours");
+            return false;
+          }
+          if(sp1.val() == '' || sp1.val() == undefined){
+            alert("Please select the project");
+            return false;
+          }
+          var svC = confirm("Are you sure want to save the changes?");
+          if(svC == true){
+            var hrs = ip1.val();
+            var prj = sp1.val();
+            dataStr = "project=" + prj + "&today=" + todayValue + "&hours=" + hrs + "&id="+ hd1.val();
+            $.ajax({
+              method: 'POST',
+              url: '/saveDayTimesheets',
+              data : dataStr,
+              success: function(dt){
+                alert(dt.msg);
+                ip1.attr('disabled',true);
+                sp1.attr('disabled',true);
+                input.attr('value','Edit');
+                $('.pieChart').trigger('click');
+
+              }
+            });
+          }
+        }
+      });
+
+    $(".remove-btn").last().click(function(){
+      input =  $(this);
+      var hd1 = input.parent().prev().prev().prev().children('input').val();
+      var svC = confirm("Are you sure want to delete?");
+      if(svC == true){
+        if(hd1 == '' || hd1== "" || hd1 == undefined){
+          input.parents("tr").remove();
+        }
+        else{
+          dataStr = "id="+hd1;
+          $.ajax({
+            method: 'POST',
+            url: '/deleteDayTimesheets',
+            data : dataStr,
+            success: function(dt){
+              alert(dt.msg);
+              if(dt.deleted == true)
+                input.parents("tr").remove();
+                $('.pieChart').trigger('click');
+
+            }
+          });
+        }
+    }
+    });
+
+    $('.project').each(function() {
+        $(this).data('lastValue', $(this).val());
+    });
+
+    $(".project").change(function(){
+          select_box_old_val = $(this).data("lastValue");
+          select_box_new_val = $(this).val();
+          exist = false;
+          console.log(select_box_old_val);
+          $('.project').not(this).each(function(){
+            if(exist == false){
+              console.log(select_box_new_val);
+              if($(this).val() == select_box_new_val){
+                //select_box.val(select_box.data("lastVal"));
+                exist = true;
+                alert("There is already timesheet for the selected project.You can update that one");
+              }
+            }
+          });
+          if(exist == true){
+            $(this).val($(this).data("lastValue"));
+          }
+          else{
+            $(this).data("lastValue",$(this).val());
+          }
+        })
+
+</script>

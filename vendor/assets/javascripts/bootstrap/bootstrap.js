@@ -1,0 +1,17 @@
+//=requre ./affix.js
+//=require ./alert.js
+//=require ./button.js
+//=require ./carousel.js
+//=require ./collapse.js
+//=require ./dropdown.js
+//=require ./flashcanvas.js
+//=require ./jquery.js
+//=require ./jquery.signaturepad.js
+//=require ./jquery.signaturepad.min.js
+//=require ./json2.min.js
+//=require ./modal.js
+//=require ./popover.js
+//=require ./scrollspy.js
+//=require ./tab.js
+//=require ./tooltip.js
+//=require ./transition.js

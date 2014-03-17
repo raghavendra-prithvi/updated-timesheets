@@ -1,0 +1,180 @@
+
+
+
+<% provide :title do  %>
+	<% "Sign in" %>
+<%end%>
+
+<div class="row centers">
+<h1>Sign in</h1>
+</div>
+
+<style>
+ #main {
+   margin:0 auto;
+   text-align:center;
+   padding-right:20px;
+   border-right: 1px solid #ccc;
+  }
+  .btn-large{
+    width:120px;
+  }
+</style>
+<div class="row">
+  <div class="span6" id="main">
+          <%#*<div class="row">%>
+              <%#*<a href="/auth/facebook" class="btn btn-facebook btn-large active"><i class="icon-facebook"></i> Facebook</a>%>
+          <%#*</div>%>
+          <br />
+          <%#*<div class="row">%>
+              <%#*<a href="/auth/twitter" class="btn btn-twitter btn-large active"><i class="icon-twitter"></i> Twitter</a>%>
+          <%#*</div>%>
+          <br/>
+          <%#*<div class="row">%>
+              <%#*<a href="/auth/instagram" class="btn btn-instagram btn-large active"><i class="icon-instagram"></i> Instagram </a>%>
+          <%#*</div>%>
+          <br />
+          <div class="row">
+              <a href="#" class="btn btn-youtube btn-large active" onclick ="$('#email_login').show();"><i class="icon-twitter"></i> Login</a>
+          </div>          
+</div>
+<div class="span4">
+    <div class="span8" style="display:none" id="email_login">
+		<div style="display:none">
+		  <%= form_for(@user) do |f| %>
+				  <%= render 'shared/error_messages', object: f.object %>
+
+				  <%= f.label :name %>
+				  <%= f.text_field :name, class:"span12" %>
+
+				  <%= f.label :email %>
+				  <%= f.text_field :email, class:"span12" %>
+
+				  <%= f.label :country %>
+				  <%= f.text_field :country, class:"span12" %>
+
+				  <%= f.label :password %>
+				  <%= f.password_field :password, class:"span12" %>
+
+				  <%= f.label :password_confirmation, "Confirmation" %>
+				  <%= f.password_field :password_confirmation, class:"span12" %>
+				  <div class="votes">
+					<div class="row">
+						<%= f.submit "Signup!", class: "btn btn-large btn-primary" %>
+					</div>
+					Returning User? <%= link_to " login here", "/auth/identity" %> <br />
+					<%= link_to "Create an account", "/auth/identity/register" %>
+				  </div>
+			<% end %>
+			</div>
+			<div id="login_form_div">
+				<%= form_tag "/auth/identity/callback" do %>
+				  <div class="field">
+				    <%= label_tag :auth_key, "Email" %><br>
+				    <%= text_field_tag :auth_key,'', :class => "span12" %>
+				  </div>
+				  <div class="field">
+				    <%= label_tag :password %><br>
+				    <%= password_field_tag :password,'', :class => "span12" %>
+				  </div>
+				  	<div class="votes">
+				  		<div class="row"><%= submit_tag "Login", :class => "btn btn-large btn-primary" %></div>
+						New User? <%= link_to " signup here", "#", :onclick => "$('#login_form_div').hide();$('#signup_form_div').show();", :class => "resizing"%> <br />
+					  </div>
+				<% end %>
+			</div>
+			<div id="signup_form_div">
+				  <%= form_tag "/auth/identity/register" do %>
+			      <% if @identity && @identity.errors.any? %>
+			        <div class="error_messages">
+			          <h2><%= pluralize(@identity.errors.count, "error") %> prohibited this account from being saved:</h2>
+			          <ul>
+			          <% @identity.errors.full_messages.each do |msg| %>
+			            <li><%= msg %></li>
+			          <% end %>
+			          </ul>
+			        </div>
+			      <% end %>
+			      <div class="field">
+			        <%= label_tag :name %><br>
+			        <%= text_field_tag :name, @identity.try(:name), class:"span12"%>
+			      </div>
+			      <div class="field">
+			        <%= label_tag :email %><br>
+			        <%= text_field_tag :email, @identity.try(:email), class:"span12" %>
+			      </div>
+			      <div class="field">
+			        <%= label_tag :password %><br>
+			        <%= password_field_tag :password,'', class:"span12" %>
+			      </div>
+			      <div class="field">
+			        <%= label_tag :password_confirmation %><br>
+			        <%= password_field_tag :password_confirmation,'', class:"span12" %>
+			      </div>
+			      <div class="votes">
+				  		<div class="row"><%= submit_tag "Sign Up", :class => "btn btn-large btn-primary" %></div>
+						Returning User? <%= link_to " login here", "#", :onclick => "$('#signup_form_div').hide();$('#login_form_div').show();", :class => "resizing" %> <br />
+				  </div>
+			    <% end %>
+			</div>
+      </div>
+</div>
+</div>
+
+<%#*<div class="row" >%>
+	
+
+	<%#*<div class="span2" >%>
+		<%#*<div class="textwrap3">%>
+			<%#*<div id="center">Option 1:%>
+			<%#*</div>%>
+		<%#*</div><br />%>
+		<%#*<div class="span3" >%>
+		<%#*</div>%>
+			<%#*<div class="span6" >%>
+				<%#*<div class="block2">%>
+					<%#*<div>%>
+						<%#*<a href="/auth/facebook"><img src="/assets/facebook-main.png" height="60" style="width:60px" /></a>%>
+					<%#*</div>%>
+				<%#*</div>%>
+			<%#*</div>%>
+
+	<%#*</div>%>
+
+	<%#*<div class="span1" >%>
+	<%#*</div>%>
+
+	<%#*<div class="span2" >%>
+		<%#*<div class="textwrap3">%>
+			<%#*<div id="center">Option 2:%>
+			<%#*</div>%>
+		<%#*</div><br />%>
+		<%#*<div class="span3" >%>
+		<%#*</div>%>
+			<%#*<div class="span6" >%>
+				<%#*<div class="block2">%>
+					<%#*<div>%>
+
+						<%#*<a href="/auth/twitter"><img src="/images/google_64.png" height="60" style="width:60px" /></a>%>
+					<%#*</div>%>
+				<%#*</div>%>
+			<%#*</div>%>
+
+	<%#*</div>%>
+
+	<%#*<div class="span1" >%>
+	<%#*</div>%>
+
+	
+<%#*</div>%>
+
+
+<script type="text/javascript">
+$("document").ready(function(){
+	$("#signup_form_div").hide();
+
+});
+</script>
+
+
+

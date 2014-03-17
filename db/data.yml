@@ -1,0 +1,865 @@
+
+---
+petitions:
+  columns:
+  - id
+  - name
+  - rating
+  - created_at
+  - updated_at
+  - description
+  - pics
+  - pass
+  - user_id
+  - links
+  - launched
+  - url
+  - demands
+  records: 
+  - - 52
+    - Get Fit!
+    - 2
+    - '2012-11-09 00:49:24.125092'
+    - '2012-11-19 17:58:22.929877'
+    - ! "<p></p><p>During last 20 years, obesity rates in North America have\r\nincreased
+      at an alarming rate. In both Canada and the U.S, the overweight and\r\nobese
+      accounts for roughly 2 out of 3 individuals1,2 </p>\r\n\r\n<p>Health conditions
+      related to obesity are widely documented, including\r\nheart disease, stroke,
+      type 2 diabetes and cancer. It has been estimated that\r\napproximately 10%
+      of all deaths in North America can be attributed to obesity3. Not only are\r\nthere
+      significant health effects associated with excessive weight, but the\r\nprice
+      tag is ever increasing ($190 Billion in the US and $7 Billion in Canada\r\n20114,
+      5.</p>\r\n\r\n<p>Who is to blame? Lack of\r\nself-control? Advertisement? Lack
+      of “time”? Whatever the reason, the good news\r\nis that there is a cure!&nbsp;</p><p></p>"
+    - fat.jpg
+    - pass
+    - 5
+    - ! "<p></p><p>1-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a rel=\"nofollow\" target=\"_blank\"
+      href=\"http://sharp-stone-7204.heroku.com/\">http://sharp-stone-7204.heroku.com/</a></p>\r\n\r\n<p>2-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/22253363\">http://www.ncbi.nlm.nih.gov/pubmed/22253363</a></p>\r\n\r\n<p>3-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.nhlbi.nih.gov/guidelines/obesity/ob_gdlns.pdf\">http://www.nhlbi.nih.gov/guidelines/obesity/ob_gdlns.pdf</a></p>\r\n\r\n<p>4-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.huffingtonpost.com/2012/04/30/obesity-costs-dollars-cents_n_1463763.html\">http://www.huffingtonpost.com/2012/04/30/obesity-costs-dollars-cents_n_1463763.html</a></p>\r\n\r\n<p>5-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.theglobeandmail.com/life/health-and-fitness/health/conditions/obesity-costs-economy-up-to-7-billion-a-year/article583803/\">http://www.theglobeandmail.com/life/health-and-fitness/health/conditions/obesity-costs-economy-up-to-7-billion-a-year/article583803/</a></p><p></p>"
+    - 'no'
+    - 
+    - ! "<p></p><p>Obesity is clearly an issue with no quick fix. Billions\r\nhave
+      been spent raising awareness, helping change eating habits, and promoting\r\nphysical
+      activity. This campaign does not intend to provide a simple solution…they\r\ndon’t
+      exist!</p>\r\n\r\n<p><span>If voted in, this campaign will last for 3 months\r\nand
+      has <u>two</u> conditions: </span></p>\r\n\r\n<ol><li><span>Pledge a minimum
+      of <b><i>15\r\nminutes</i></b> of exercise per day</span></li><li>Educate yourself
+      on ways to\r\nreduce your caloric intake</li></ol>\r\n\r\n<p>Generation315 will
+      provide tons of information\r\nrelated to healthy living: including healthy
+      meal ideas, daily exercises and\r\nfact-based information related to different
+      weight-loss programs. Each\r\nparticipant will have an initial target weight,
+      chosen by them, and results\r\nwill be assessed on a weekly basis. Vote for
+      this campaign and participate in\r\nthe largest\r\ncollective action against
+      obesity in history! </p><p></p>"
+  - - 53
+    - Smoking Campaign
+    - 0
+    - '2012-11-09 01:06:01.802156'
+    - '2012-11-09 23:48:27.319095'
+    - ! "Despite\r\nyears of education and awareness, the smoking facts remain shocking…<br><ul><li>Worldwide,\r\nthere
+      are more than 5 Million Tabaco deaths per year. By 2030, this number is\r\npredicted
+      to reach 8 Million1</li><li>In\r\nthe US, 1 out of 5 individual dies due to
+      cigarettes.</li><li>10.7 percent of\r\nall women in the US still smoke during
+      pregnancy2</li><li>According to 2008 statistics, the\r\nnumber of individuals
+      who would like to smoke entirely is nearly 70%1</li><li>Every\r\nsingle day,
+      there is an average of 3,800 people younger than\r\n18 years of age who smoke
+      their first cigarette1</li><li>A total of <span>$9.94 billion total spent in
+      2008\r\nwhich is equivalent to $27 million <i>spent\r\na day</i> in the US3</span></li><li>Smoking
+      in the\r\nU.S cost the economy nearly $200 Billion in yearly costs from 2000-20043</li></ul>"
+    - smoking.jpg
+    - pass
+    - 1
+    - ! "<p></p><p>1-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a rel=\"nofollow\" target=\"_blank\"
+      href=\"http://www.cdc.gov/tobacco/data_statistics/fact_sheets/fast_facts/\">http://www.cdc.gov/tobacco/data_statistics/fact_sheets/fast_facts/</a></p>\r\n\r\n<p>2-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.lung.org/stop-smoking/about-smoking/facts-figures/general-smoking-facts.html\">http://www.lung.org/stop-smoking/about-smoking/facts-figures/general-smoking-facts.html</a></p>\r\n\r\n<p>3-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.cdc.gov/tobacco/data_statistics/fact_sheets/economics/econ_facts/\">http://www.cdc.gov/tobacco/data_statistics/fact_sheets/economics/econ_facts/</a></p>\r\n\r\n<p>4-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.who.int/mediacentre/factsheets/fs339/en/index.html\">http://www.who.int/mediacentre/factsheets/fs339/en/index.html</a></p>\r\n\r\n<p>5-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://ash.org/cigtaxfacts.html\">http://ash.org/cigtaxfacts.html</a></p><p></p>"
+    - 'no'
+    - 
+    - ! "<p></p><p></p><p>The economic and health effects of smoking are staggering.\r\nThe
+      goal of this campaign is to reduce the use of cigarettes in North America\r\nby
+      pressuring governments to take action on two fronts: </p>\r\n\r\n<ol><li>Ban
+      all forms of cigarette advertisement.\r\nCigarette manufacturers spend Billions
+      per year on advertising to keep their\r\nproducts ‘cool’. That is not cool.
+      Eliminating advertising has been proven to\r\ndecrease consumption4.</li><li>Pressure
+      the government to double tax rates on\r\ncigarettes to make them less accessible.
+      Whether you smoke or not, higher\r\nprices have been proven to decrease cigarette
+      use4. Taxes in the USA\r\nare among the lowest in the world5.&nbsp;</li></ol>\r\n\r\n<p>This
+      campaign will last 4 months. Generation315\r\nwill provide petitions and will
+      attempt to raise awareness and funds to maximize\r\nits effect. The campaign
+      will also launch a 4 month challenge for current\r\nsmokers. Vote for this campaign,
+      and help make our world a healthier and\r\nfresher place!&nbsp;</p><p></p>"
+  - - 54
+    - Sustainable fishing
+    - 3
+    - '2012-11-09 01:11:57.513501'
+    - '2012-11-13 16:10:45.967444'
+    - ! "<p></p><p>Global fish populations are plundering. It is estimated that\r\nthe
+      global fishing fleet is 2-3 times larger than the oceans can sustainably\r\nsupport1.
+      As a result, nearly 90% of the ocean’s large fish have\r\nbeen fished out2.
+      53% of the worlds fish are fully exploited and 32%\r\nare overexploited, depleted
+      or recovering from depletion1. </p>\r\n\r\n<p>The reasons for this are very
+      diverse, ranging from poor\r\nfishery management to inappropriate subsidies
+      to pirate fishers. In the past 30\r\nyears, the fishing industry has decimated
+      the coastal fish population and has\r\nlargely moved on to deep sea fishing.
+      Today, nearly 40% of the world’s fishing\r\noccurs in deep sea3.</p>\r\n\r\n<p>There
+      are fortunately simple solutions that we can all take\r\nto prevent the potential
+      collapse of world fish populations…join this campaign\r\nand help fight for
+      the fish!</p><p></p>"
+    - fishing.jpg
+    - pass
+    - 1
+    - ! "<p></p><p>1-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a rel=\"nofollow\" target=\"_blank\"
+      href=\"http://www.fao.org/docrep/013/i1820e/i1820e01.pdf\">http://www.fao.org/docrep/013/i1820e/i1820e01.pdf</a></p>\r\n\r\n<p>2-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.nature.com/nature/journal/v423/n6937/abs/nature01610.html\">http://www.nature.com/nature/journal/v423/n6937/abs/nature01610.html</a></p>\r\n\r\n<p>3-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://wwf.panda.org/about_our_earth/blue_planet/problems/problems_fishing/\">http://wwf.panda.org/about_our_earth/blue_planet/problems/problems_fishing/</a></p><p></p>"
+    - 'no'
+    - 
+    - ! "<p></p><p>This is a <u>worldwide</u> campaign will last 4 months. The\r\ncampaign
+      has one demand from our politicians and asks that participants take two\r\nsimple
+      actions: </p>\r\n\r\n<ol><li>We ask governments to impose mandatory labels on\r\nall
+      fish products. Label the origin and sustainability of all fish sold in\r\nNorth
+      America.&nbsp;</li><li>We ask YOU to purchase sustainable fish for 4\r\nmonths.
+      By collectively targeting our purchasing power, we have the power to\r\nsend
+      a clear message to fisheries, grocery stores and governments. Don’t know\r\nwhich
+      fish to buy? We will provide a detail guide.&nbsp;</li><li>We also ask that
+      all participants take one small\r\naction…talk to store manager about sustainable
+      fish products! The more people\r\nvoicing opinions, the more chances we have
+      of getting sustainably caught fish\r\non our plates.</li></ol><p></p>"
+  - - 55
+    - Clean up the Cleaners!
+    - 1
+    - '2012-11-09 01:16:56.762617'
+    - '2012-11-12 01:03:53.669779'
+    - ! "<p></p><p>Most people like to live in a clean house. It seems that is\r\nour
+      never ending search for better smelling, cleaner and easier products, we\r\nhave
+      completely forgotten the original purpose of household cleaners: living in\r\na
+      healthier environment. Is it not possible to live in a clean <b>and</b> healthy
+      house? </p>\r\n\r\n<p>Household products we use on a daily basis are not required\r\nto
+      label whether or not they contain products which are chronically toxic. A\r\nstudy
+      in the U.S tested a small number of consumer products and found that each\r\nof
+      them tested between one and eight chemicals classified as being toxic by U.S\r\nlaw1.</p>\r\n\r\n<p>Consumers
+      spend nearly 700$ a year on cleaning products2.\r\nWouldn’t it be nice to know
+      that the products we buy on a daily basis are clean\r\nand healthy?&nbsp;</p><p></p>"
+    - toxic_cleaners.jpg
+    - pass
+    - 1
+    - ! "<p></p><p><a rel=\"nofollow\" target=\"_blank\" href=\"http://www.davidsuzuki.org/issues/health/science/toxics/the-dirt-on-toxic-chemicals-in-household-cleaning-products/\">http://www.davidsuzuki.org/issues/health/science/toxics/the-dirt-on-toxic-chemicals-in-household-cleaning-products/</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://budgeting.thenest.com/much-money-average-family-spend-cleaning-products-year-23539.html\">http://budgeting.thenest.com/much-money-average-family-spend-cleaning-products-year-23539.html</a></p><p></p>"
+    - 'no'
+    - 
+    - ! "<p></p><p>This campaign will last 4 months and has two parts – one\r\nindustry
+      demand and one consumer demand:</p>\r\n\r\n<p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nWe
+      demand clear labels for chemicals which have chronic\r\ntoxicity, as well as
+      labels for products which contain chemicals known to be\r\ntoxic to aquatic
+      life. </p>\r\n\r\n<p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nWe ask that individuals
+      commit to using cleaning\r\nproducts which are clean and healthy for the 4 month
+      period.&nbsp; </p>\r\n\r\n<p>This campaign will include a petition to pressure\r\ngovernments
+      and organizations, asking for updated labeling of cleaning\r\nproducts. We will
+      also provide a guide to cleaning products to provide you with\r\neffective cleaning
+      choices.&nbsp;</p><p></p>"
+  - - 56
+    - Dirty Cosmetics
+    - 1
+    - '2012-11-09 01:20:24.708511'
+    - '2012-11-11 22:13:39.726575'
+    - ! "<p></p><p><span>Some\r\ningredients present in makeup and beauty products
+      are not that pretty. A report\r\nby US researchers reported that 1/8 beauty
+      product ingredients are industrial chemicals, including carcinogens,\r\npesticides,
+      reproductive toxins, and hormone disruptors1.&nbsp;</span></p>\r\n\r\n<p>The
+      cosmetic industry is\r\namong the least regulated. Not only are cosmetic manufacturers
+      not required to\r\nlist toxins in their chemicals, but even after proven to
+      be toxic, the\r\ngovernment has little power to regulate them. In recent years,
+      there have been\r\nmultiple studies demonstrating the presence of Lead in lipsticks.&nbsp;
+      There have yet to be any limits set on its\r\namount2. The average women uses
+      12 beauty products every day, while\r\nthe average man uses 63. All of these
+      chemicals eventually end up in\r\nour bodies and in our water. </p>\r\n\r\n<p>In
+      2002, L'Oréal alone spent more than\r\n$1.2 billion on advertising in the United
+      States (that’s 3.3 Million /day!). Maybe if cosmetic\r\nmanufacturers spent
+      a little less time promoting their products, and a little\r\nmore time trying
+      to reduce our exposure to toxins…we wouldn’t have these\r\nissues. </p>\r\n\r\n<p>In\r\n2012,
+      Johnson and Johnson announced that they would phase out all toxins in\r\ntheir
+      products by 20154. THANK YOU! We urge other manufacturers to\r\ntake similar
+      steps.</p><p></p>"
+    - toxic_makeup.jpg
+    - pass
+    - 1
+    - ! "<p></p><p>1-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a rel=\"nofollow\" target=\"_blank\"
+      href=\"http://www.davidsuzuki.org/issues/health/science/toxics/dirty-dozen-cosmetic-chemicals/\">http://www.davidsuzuki.org/issues/health/science/toxics/dirty-dozen-cosmetic-chemicals/</a></p>\r\n\r\n<p>2-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.fda.gov/cosmetics/productandingredientsafety/productinformation/ucm137224.htm\">http://www.fda.gov/cosmetics/productandingredientsafety/productinformation/ucm137224.htm</a></p>\r\n\r\n<p>3-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.nrdc.org/onearth/04fal/livgreen.asp\">http://www.nrdc.org/onearth/04fal/livgreen.asp</a></p>\r\n\r\n<p>4-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.triplepundit.com/2012/08/johnson-johnson-announces-ban-harmful-chemicals-products/\">http://www.triplepundit.com/2012/08/johnson-johnson-announces-ban-harmful-chemicals-products/</a></p><p></p>"
+    - 'no'
+    - 
+    - ! "<p></p><p>This is a worldwide campaign that will last for 4 months with\r\none
+      goal:&nbsp; Pressure organizations to\r\nfollow Johnson and Johnson’s lead to
+      eliminate harmful chemicals from all\r\nproducts! To do this, the campaign has
+      1 petition and one demand from its\r\nparticipants:</p>\r\n\r\n<ol><li>A petition\r\nwill
+      be launched asking governments and organizations to protect consumers from\r\nharmful
+      chemicals</li><li>We ask that\r\nall participants purchase products which are
+      safe for the environment and for\r\nhumans.</li></ol>\r\n\r\n<p>We will be providing
+      participants with a detailed guide to\r\ncosmetic products and hope that by
+      pressuring organizations from all sides,\r\nthey will voluntarily change their
+      ways.&nbsp;</p><p></p>"
+  - - 57
+    - Climate Change
+    - 1
+    - '2012-11-09 01:25:56.007460'
+    - '2012-11-13 16:47:51.372730'
+    - ! "<p></p><p>Climate change IS real. In 2012, over\r\n20,000 high-temperature
+      records were broken in the United States alone1.\r\nArctic sea ice hit a record
+      low of 3.6million square kilometers, down from 4.2.\r\nThe risks associated
+      with climate change are lengthy, including increased\r\nsevere weather, rising
+      sea levels and acidification of oceans, just to name a\r\nfew2. </p>\r\n\r\n<p>With
+      such high risks at stake, you\r\nwould imagine governments would be quick to
+      act. Unfortunately, this is not\r\nexactly the case. The complicated nature
+      of world politics has resulted in\r\nlittle action from most worldwide governments.
+      </p>\r\n\r\n<p>For years, scientists around the world have demanded\r\nimmediate
+      action – with little to no results. It is time for the citizens of\r\nthis earth
+      to speak up and get our leaders to do their job - lead.&nbsp;</p><p></p>"
+    - climate.jpg
+    - pass
+    - 1
+    - ! "<p></p><p><a rel=\"nofollow\" target=\"_blank\" href=\"http://newswatch.nationalgeographic.com/2012/09/06/presidential-candidates-studies-dissect-climate-change/\">http://newswatch.nationalgeographic.com/2012/09/06/presidential-candidates-studies-dissect-climate-change/</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://newswatch.nationalgeographic.com/2012/10/11/climate-change-and-seafood-supply-developing-countries-most-vulnerable-to-ocean-acidification/\">http://newswatch.nationalgeographic.com/2012/10/11/climate-change-and-seafood-supply-developing-countries-most-vulnerable-to-ocean-acidification/</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://weekly.blog.gustavus.edu/2012/09/21/capn-trade/\">http://weekly.blog.gustavus.edu/2012/09/21/capn-trade/</a></p><p></p>"
+    - 'no'
+    - 
+    - ! "<p>This worldwide campaign is a monster. It will last 6 months and has\r\ntwo
+      goals: &nbsp;</p>\r\n\r\n<ol><li>Pressure governments to limit CO2\r\nemissions
+      using a Cap-and-trade system. Cap-and-trade is intended to limit\r\nemissions
+      by providing companies with emission permits. Companies who need more\r\npermits
+      can then purchase permits from companies who do not need them. Cap and\r\nTrade
+      has a good track record. In the U.S, there has been a Sulfur emissions\r\npermit
+      market since the 1980s, resulting in a reduction in Sulfur by ~50%3</li></ol>\r\n\r\n<ol><li>Pledge
+      to\r\nreduce your energy consumption by one of the following 3 ways</li><ol><li>Carpool</li><li>Reduce
+      energy\r\nconsumption in your house</li><li>Reduce energy\r\nconsumption at
+      work</li></ol></ol><p>A petition will be launched targeting governments and\r\norganizations.
+      Funds will be used to market the cause and get as many\r\nsignatures as possible.</p>"
+  - - 58
+    - Down with Coal!
+    - 0
+    - '2012-11-09 01:32:58.109603'
+    - '2012-11-09 23:15:24.791701'
+    - ! "<p>Coal is the dirtiest fuel on earth. </p>\r\n\r\n<p>In the USA, 45% of
+      individuals obtained their energy from coal in\r\n2010, representing approximately
+      32% of total CO2 emissions.\r\nBy 2035, the Energy Information\r\nAdministration
+      estimates that coal will account for 39% of all energy use.\r\n</p>\r\n\r\n<p>In
+      2012, the Canadian government implemented new coal regulations.\r\nUnfortunately,
+      these regulations take place over the next 30 years. According\r\nto some, the
+      regulations will achieve in 2040 what the regulations in the\r\nprovince of
+      Ontario will achieve in 2014. Needless to say,\r\ngovernment bent over backwards
+      on this one.</p><p>Tackling coal on a worldwide scale is necessary to\r\ncombat
+      climate change as well as cleaning up our air and wildlife. With\r\ncountries
+      like Canada setting targets decades into the future, how do we expect\r\ncountries
+      like China and India to ever set ambitious targets? We must ask our\r\ngovernment
+      to act now. Vote for this campaign and help eliminate coal form our\r\nlives!</p>"
+    - coal.jpg
+    - pass
+    - 21
+    - ! "<p><a rel=\"nofollow\" target=\"_blank\" href=\"http://www.instituteforenergyresearch.org/2012/07/20/u-s-energy-related-carbon-dioxide-emissions-are-declining/\">http://www.instituteforenergyresearch.org/2012/07/20/u-s-energy-related-carbon-dioxide-emissions-are-declining/</a></p><p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.economist.com/node/21543563\">http://www.economist.com/node/21543563</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.pembina.org/blog/647\">http://www.pembina.org/blog/647</a></p>"
+    - 'no'
+    - 
+    - ! "This is a worldwide campaign that will last for 4 months.&nbsp;<span>The
+      goals of this campaign are two-fold:<br></span><ol><li>Pressure government and
+      organizations through a petition.\r\nWe will be pressuring organizations to
+      switch to clean sources of fuel, and\r\npressuring government to restrict coal
+      use.&nbsp;</li><li>This campaign will also be used to raise\r\nawareness around
+      clean alternatives to consumers in an attempt to promote clean\r\nenergy use.&nbsp;</li></ol>"
+  - - 60
+    - Water Bottle Campaign
+    - 2
+    - '2012-11-09 22:57:02.931678'
+    - '2012-11-13 16:47:39.465049'
+    - ! "<p>Bottled water was nearly non-existent a decade ago. Millions of us\r\ngot
+      by drinking tap water and using reusable bottles. Since then, the industry\r\nhas
+      exploded. </p>\r\n\r\n<p>Yearly bottled water consumption in the United States
+      alone is\r\naround 29 million bottles, requiring roughly 17 Million barrels
+      of oil to\r\nproduce. The recycling rate of these water bottles is around 13%,
+      resulting in\r\nmillions of bottles being sent into landfills, incinerators,
+      and our\r\nenvironment1. </p>\r\n\r\n<p>In addition to being a generally made-up
+      industry, the <span>National Resources Defense Council\r\nconducted a 4 year
+      study looking at the quality of bottled water and determined\r\nthat approximately
+      1 out of 4 bottle of water is just <i>tap water in a bottle</i>2. </span></p>\r\n\r\n<p>Living
+      a (disposable) bottle-free\r\nlife is easy! Vote for this campaign and get the
+      world to join!</p>"
+    - waterbottles.jpg
+    - pass
+    - 21
+    - ! "<p><a rel=\"nofollow\" target=\"_blank\" href=\"http://greenliving.nationalgeographic.com/water-bottle-pollution-2947.html\">http://greenliving.nationalgeographic.com/water-bottle-pollution-2947.html</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.nrdc.org/water/drinking/qbw.asp\">http://www.nrdc.org/water/drinking/qbw.asp</a></p>"
+    - 'no'
+    - 
+    - ! "<p>This is a worldwide campaign that will last 3 months. The campaign\r\nseeks
+      to dramatically reduce the use of bottled water through 2 actions:</p>\r\n\r\n<p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nPledge
+      to use only reusable bottles for the\r\nthree month period</p>\r\n\r\n<p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nShare
+      with as many friends as possible!</p>"
+  - - 61
+    - Eliminate trans-fats
+    - 0
+    - '2012-11-09 22:59:26.528892'
+    - '2012-11-09 23:20:22.209713'
+    - ! "<p>Trans fats have been in the news for years. To produce trans-fats,\r\nindustry
+      pumps hydrogen into vegetable oil to make them solid, spreadable and\r\nextend
+      shelf life of products1. The result is a very stable\r\nunnatural fat, which
+      our body is not entirely equipped to digest.</p>\r\n\r\n<p>Trans-fats have been
+      shown to increase levels of LDL cholesterol\r\nin the body, resulting in increased
+      risks of heart disease.&nbsp; A 14-year study, following 120,000 females,\r\ndetermined
+      that for every 2% increase in trans-fat in the diet, there was\r\nnearly a double
+      in heart disease. Other types of fats required over 7 times\r\nmore fat to produce
+      the same effect2. </p>\r\n\r\n<p>Studies have found that the average\r\nCanadian
+      consumes 8.4&nbsp;g&nbsp;of trans fatty acids per day, which is\r\napproximately
+      500% more than the recommended daily intake. Canadian men aged 18\r\nto 34 ate
+      an average of 38.9&nbsp;g&nbsp;of trans fatty acids a day, nearly 20,000%\r\nthe
+      recommended daily intake3! No wonder there is an obesity\r\nepidemic.</p>\r\n\r\n<p>California,
+      New York City and Philadelphia have decided to take\r\nmatters into their own
+      hands by imposing severe restrictions on trans fats in\r\nrestaurants and fast-food
+      chains4. It is time for us to take matters\r\ninto our own hands! Vote for this
+      campaign and help ban Trans-fats from foods!</p>"
+    - trans_fat.jpg
+    - pass
+    - 21
+    - ! "<p><a rel=\"nofollow\" target=\"_blank\" href=\"http://www.reuters.com/article/2012/10/29/us-transfats-idUSBRE89S01920121029\">http://www.reuters.com/article/2012/10/29/us-transfats-idUSBRE89S01920121029</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.nature.com/oby/journal/v15/n4/full/oby2007616a.html\">http://www.nature.com/oby/journal/v15/n4/full/oby2007616a.html</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.hc-sc.gc.ca/sr-sr/activ/consprod/trans-eng.php\">http://www.hc-sc.gc.ca/sr-sr/activ/consprod/trans-eng.php</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://blogs.nature.com/nyc/2009/02/16/healthy-new-york\">http://blogs.nature.com/nyc/2009/02/16/healthy-new-york</a></p>"
+    - 'no'
+    - 
+    - ! "<p>This campaign will last 4 months and has two goals: </p>\r\n\r\n<p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nReduce
+      the amount of trans fats consumed by\r\nmaking a pledge to try to eliminate
+      trans-fats from your diet</p>\r\n\r\n<p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nPressure
+      governments and organizations to eliminate\r\ntrans fats from our lives. This
+      will be done by launching a petition </p>\r\n\r\n<p>Generation315 will use the
+      campaign to educate the public and\r\nensure that your voices are heard.&nbsp;</p>"
+  - - 62
+    - Banishing BPA from our lives
+    - 0
+    - '2012-11-09 23:04:30.872299'
+    - '2012-11-10 22:00:08.506215'
+    - ! "<div>Bisphenol A was\r\ndiscovered in 1891 by <a rel=\"nofollow\" target=\"_blank\"
+      href=\"http://en.wikipedia.org/wiki/Aleksandr_Dianin\">Aleksandr Dianin</a>.
+      In the 1930s, <span>Charles Edward Dodds discovered BPA behaved as an\r\nartificial
+      estrogen. Early on, BPA was used to enhance growth in farm animals\r\nand also
+      as an artificial estrogen replacement in humans, before it was\r\nreplaced by
+      another compound.&nbsp;<br><br> </span>Some years after\r\nBPA’s discovery,
+      it was found to be a useful additive to plastic. The\r\nchemical is currently
+      used in everything from water bottles to can liners. Global production is expected
+      to reach 6.3\r\nmillion metric tons by 20152.<br><br> So what is the big deal?
+      Unfortunately\r\nfor us, BPA leaches from plastics, and it is widely used in
+      food products.<br> Nearly all of us have a constant level\r\nof BPA in our bloorstream..
+      Studies\r\nhave shown BPA to be linked to breast and\r\nprostate cancer, obesity,
+      neurobehavioral problems, and reproductive\r\nabnormalities and obesity3.<br><br>In
+      October\r\nof 2010, Canada declared BPA a toxin5. In 2009, the six largest US\r\ncompanies
+      that produce baby bottles decided to stop using it in their baby\r\nbottles6.
+      However, the chemical is\r\nstill used in nearly every canned product and water
+      bottles, as well as other\r\nfood products.<br><br> <div>Last\r\nyear, the companies
+      responsible feeding us these chemicals made in excess of 6\r\nBillion Dollars
+      in profit (4.6 B euro (Bayer), 2B Dow)7. With\r\nexisting safe alternatives
+      to BPA, industry should be required to eliminate\r\nthis harmful product from
+      our shelves8. &nbsp;</div></div>"
+    - BPA.jpg
+    - pass
+    - 21
+    - ! "<p></p><p><a rel=\"nofollow\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Bisphenol_A\">http://en.wikipedia.org/wiki/Bisphenol_A</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.prweb.com/releases/2010/03/prweb3756664.htm\">http://www.prweb.com/releases/2010/03/prweb3756664.htm</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/15811827\">http://www.ncbi.nlm.nih.gov/pubmed/15811827</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.scientificamerican.com/article.cfm?id=chemical-bpa-linked-to-obesity-in-children\">http://www.scientificamerican.com/article.cfm?id=chemical-bpa-linked-to-obesity-in-children</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.cbc.ca/news/health/story/2009/01/28/f-health-bisphenol.html\">http://www.cbc.ca/news/health/story/2009/01/28/f-health-bisphenol.html</a></p>\r\n\r\n<p><a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.washingtonpost.com/wp-dyn/content/article/2009/03/05/AR2009030503285.html\">http://www.washingtonpost.com/wp-dyn/content/article/2009/03/05/AR2009030503285.html</a></p>"
+    - 'yes'
+    - 
+    - ! "<p>This campaign will last 4 months and has <u>ONE</u> goal:</p><p> \r\nPressure
+      governments and organizations to phase out BPA within 5 years in all food products
+      with suitable non-toxic replacements.&nbsp;By signing the campaign form below,
+      you agree to support the&nbsp;following terms:</p><ul><li>I believe that BPA
+      should be banned in North America from all food-containing products</li><li>Even
+      though BPA's toxicity is not 100% conclusive, I believe that&nbsp;governments&nbsp;and
+      organizations should take precautionary measures to protect the public</li></ul>This
+      campaign aims to collect as many signatures of support as possible to send a
+      clear message to our politicians as well as corporations which produce and use
+      BPA.&nbsp;<br>"
+  - - 63
+    - Creative world!
+    - 1
+    - '2012-11-09 23:08:04.324508'
+    - '2012-11-13 16:48:05.054512'
+    - ! "<p>Too many of us have lost all aspects of creativity in our\r\nlives. As
+      children, we are all artists – Picassos and Monets, expressing\r\nourselves
+      freely and creating. Throughout history we have constantly been\r\ninspired
+      and looked up and creators. From Artists like Van Gogh to creators and\r\ninventors
+      – like Einstein, Newton, Tesla and Da Vinci. Why then, has creativity\r\nnot
+      played a larger role in education and upbringing? </p>\r\n\r\n<p>Creativity
+      is one of the key defining attributes that makes\r\nus human. Even with a clear
+      admiration for creativity, it is astounding how\r\nlittle our society practices
+      creative activities. Vote for this campaign and\r\nhelp create a world of creators!&nbsp;</p>"
+    - child_painting.jpg
+    - pass
+    - 21
+    - ''
+    - 'no'
+    - 
+    - ! "<p>This campaign is simply a pledge to create! Over the course\r\nof 2 months,
+      each participant will be asked to tackle ONE creative project of\r\nchoice.
+      We will provide all participants with examples and tips – so we can all\r\nbe
+      the creators we were born to be!</p>"
+  - - 64
+    - Arctic Drilling
+    - 1
+    - '2012-11-09 23:41:44.940081'
+    - '2012-11-13 16:11:09.428786'
+    - ! "<p>In 2010, BP’s Macondo Deepwater\r\nHorizon spilled between 17 and 39 million
+      gallons of oil into the Gulf of\r\nMexico1 (That’s a lot!). The spill polluted
+      nearly 125 miles of\r\ncoastline and thousands of animals were reportedly killed
+      due to the incident. <i>Thankfully</i>, nearly 45, 000 individuals responded\r\nin
+      unison to the spill. Nearly 4,500 ships assisted in the process, working\r\nfrom
+      some of the largest ports in the world and approximately 5.5 million feet\r\nof
+      boom was used to minimize its environmental impact2.&nbsp; </p>\r\n\r\n<p>Now
+      imagine the same scenario in the\r\nArctic. Where would the 30,000 individuals
+      come from? And the 4,500 ships? And\r\nthe millions of feet of boom? Which&nbsp;Arctic&nbsp;harbor
+      could support this effort? </p>\r\n\r\n<p>The truth is that we are unbelievably\r\nunprepared
+      for an oil spill in the&nbsp;Arctic&nbsp; Some major oil companies have already\r\ndeclared
+      that this type of operation is too risky for them3. Others, in pursuit of riches,
+      are storming\r\nahead. Arctic drilling poses a huge threat to our environment,
+      and needs to be\r\nstopped immediately.&nbsp;&nbsp;</p>"
+    - arctic.jpg
+    - pass
+    - 1
+    - ! "<p>1-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a rel=\"nofollow\" target=\"_blank\"
+      href=\"http://www.dosomething.org/tipsandtools/11-facts-about-bp-oil-spill\">http://www.dosomething.org/tipsandtools/11-facts-about-bp-oil-spill</a></p>\r\n\r\n<p>2-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://business.financialpost.com/2012/09/17/shell-admits-arctic-drilling-defeat-for-now/\">http://business.financialpost.com/2012/09/17/shell-admits-arctic-drilling-defeat-for-now/</a></p>\r\n\r\n<p>3-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.cbc.ca/news/business/story/2012/09/26/total-arctic-drilling.html\">http://www.cbc.ca/news/business/story/2012/09/26/total-arctic-drilling.html</a></p>"
+    - 'no'
+    - 
+    - ! "<p>This is a <u>worldwide</u> campaign that will last 4 months.\r\nThe campaign
+      has one goal: pressure governments and organizations to stop\r\nexploring in
+      the arctic. This will be achieved in two ways: </p>\r\n\r\n<ol><li>A petition
+      will be initiated with the goal of 10\r\nMillion signatures.</li><li>Funds will
+      be raised to market the cause and get\r\nthis key issue in the spotlight</li></ol>\r\n\r\n<p>All
+      we ask is your participation. Vote to launch this\r\ncampaign!</p>"
+  - - 65
+    - Happy Living Campaign
+    - 1
+    - '2012-11-09 23:44:52.502809'
+    - '2012-11-13 16:11:52.239234'
+    - ! "<p>Despite significant increase GPD and economic wealth, North\r\nAmericans
+      are not much happier today then in 1972. What makes us happy? What\r\nprevents
+      us from being happy? Can’t we all just…be happy?</p>"
+    - happy.jpg
+    - pass
+    - 1
+    - ! "<p>1-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a rel=\"nofollow\" target=\"_blank\"
+      href=\"http://usatoday30.usatoday.com/news/health/wellness/story/2012-06-20/gross-national-happiness/56669830/1\">http://usatoday30.usatoday.com/news/health/wellness/story/2012-06-20/gross-national-happiness/56669830/1</a></p>\r\n\r\n<p>2-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n<a
+      rel=\"nofollow\" target=\"_blank\" href=\"http://www.actionforhappiness.org/10-keys-to-happier-living\">http://www.actionforhappiness.org/10-keys-to-happier-living</a></p>"
+    - 'no'
+    - 
+    - ! "<p>This campaign is a 3 month <b>challenge</b>. This campaign’s goal is to
+      make the world a happier\r\nplace for everyone! Each of us will select 3 things
+      which we will work on to\r\nbecome a happier person. Progress will be assessed
+      on a weekly basis through\r\nvoluntary surveys to determine how well we have
+      done! Can we willfully become\r\nhappier people? Happy Happy. Joy Joy. Happy
+      Happy. Joy Joy…&nbsp;</p>"
+
+---
+signatures:
+  columns:
+  - id
+  - name
+  - email
+  - country
+  - created_at
+  - updated_at
+  - total
+  - remember_token
+  - signaturepic
+  - user_id
+  - petition_id
+  records: 
+  - - 1
+    - Eric Arsenault
+    - ericarsenault@ymail.com
+    - Canada
+    - '2012-10-11 20:36:38.305791'
+    - '2012-10-11 20:36:38.305791'
+    - 1
+    - 
+    - 
+    - 
+    - 
+  - - 70
+    - Eric Arsenault
+    - ericarsenault@ymail.com
+    - Canada
+    - '2012-11-13 16:46:15.012218'
+    - '2012-11-13 16:46:15.012218'
+    - 2
+    - a6oS229QqH4Wz2L29l68Fw
+    - 
+    - '23'
+    - '62'
+  - - 71
+    - Eric Arsenault
+    - ericarsenault6@gmail.com
+    - Canada
+    - '2012-11-14 04:38:57.922031'
+    - '2012-11-14 04:38:57.922031'
+    - 3
+    - 91_wWpmjERlBCDBDuggXNQ
+    - 
+    - '1'
+    - '62'
+
+---
+newpetitions:
+  columns:
+  - id
+  - name
+  - email
+  - description
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Eric
+    - ericarsenault6@gmail.com
+    - this is my descriptionkjkjk lkj ;lkj ; j
+    - '2012-10-16 04:25:36.708711'
+    - '2012-10-16 04:46:32.115516'
+  - - 2
+    - Eric
+    - erieer@gmail.com
+    - this is a test to see if I can make a new petition and then launch it!
+    - '2012-10-16 15:34:45.185600'
+    - '2012-10-16 15:34:45.185600'
+
+---
+microposts:
+  columns:
+  - id
+  - content
+  - user_id
+  - created_at
+  - updated_at
+  - petition_id
+  records: 
+  - - 23
+    - This is great! Hope this one gets launched...
+    - 1
+    - '2012-11-13 16:10:13.695598'
+    - '2012-11-13 16:10:13.695598'
+    - 54
+  - - 24
+    - ! "Fun... :)\r\n"
+    - 1
+    - '2012-11-13 16:11:43.454732'
+    - '2012-11-13 16:11:43.454732'
+    - 62
+
+---
+users:
+  columns:
+  - id
+  - name
+  - email
+  - string
+  - created_at
+  - updated_at
+  - password_digest
+  - remember_token
+  - vote
+  - avatars
+  - country
+  - admin
+  - petitioner
+  - petition_id
+  - confirmed
+  - signer
+  - shares
+  records: 
+  - - 1
+    - Eric Arsenault
+    - ericarsenault6@gmail.com
+    - 
+    - '2012-10-09 19:40:14.623508'
+    - '2012-11-17 20:55:08.866688'
+    - $2a$10$lnfzOFdloL1mTNsZY2AYxOXOid54sixYBYs2ZabiC6VsqYahkQ.XG
+    - 91_wWpmjERlBCDBDuggXNQ
+    - 3
+    - 
+    - Canada
+    - true
+    - ''
+    - 62
+    - 
+    - 'yes'
+    - '2'
+  - - 24
+    - Eric
+    - ericarsenault@ymail.com
+    - 
+    - '2012-11-17 21:11:33.263290'
+    - '2012-11-17 21:11:33.263290'
+    - $2a$10$RyuEcHY8fUxw85iIjqX/JOkb/voxJi1vDOvB0mfzyH7VRyDhSwN16
+    - uA-L9uw65ydm3HF2oWaVfA
+    - 3
+    - 
+    - Canada
+    - false
+    - 'no'
+    - 
+    - 'false'
+    - 'no'
+    - 
+  - - 25
+    - Raghu
+    - raghava.sangars@gmail.com
+    - 
+    - '2012-11-19 17:57:09.264664'
+    - '2012-11-19 17:58:22.944878'
+    - $2a$10$qn6l0Tss08UsDFA62O8olOYGK8rgTWkPrX0CtrPgom6tHDI45LPxm
+    - FYzp_DyynZ4XzHysHCYJGQ
+    - 2
+    - 
+    - Mexico
+    - false
+    - 'no'
+    - 
+    - 'false'
+    - 'no'
+    - 
+
+---
+friends:
+  columns:
+  - id
+  - email
+  - created_at
+  - updated_at
+  - user_id
+  records: 
+  - - 68
+    - ericarsenault8@gmail.com
+    - '2012-11-13 16:18:18.138307'
+    - '2012-11-13 16:18:18.138307'
+    - 23
+  - - 69
+    - ericarsenault6@gmail.com
+    - '2012-11-13 16:18:18.146307'
+    - '2012-11-13 16:18:18.146307'
+    - 23
+  - - 70
+    - ericarsenault6@gmail.com
+    - '2012-11-13 16:18:18.154307'
+    - '2012-11-13 16:18:18.154307'
+    - 23
+  - - 71
+    - ericarsenault@ymail.com
+    - '2012-11-13 16:19:57.593995'
+    - '2012-11-13 16:19:57.593995'
+    - 23
+  - - 72
+    - ericarsenault@ymail.com
+    - '2012-11-13 16:20:42.126542'
+    - '2012-11-13 16:20:42.126542'
+    - 23
+  - - 73
+    - ericarsenault@ymail.com
+    - '2012-11-13 16:28:37.539734'
+    - '2012-11-13 16:28:37.539734'
+    - 23
+  - - 74
+    - ericarsenault@ymail.com
+    - '2012-11-13 16:29:22.124284'
+    - '2012-11-13 16:29:22.124284'
+    - 23
+  - - 75
+    - ericarsenault@ymail.com
+    - '2012-11-13 16:42:44.818196'
+    - '2012-11-13 16:42:44.818196'
+    - 23
+  - - 76
+    - ericarsenault6@gmail.com
+    - '2012-11-14 04:46:33.035062'
+    - '2012-11-14 04:46:33.035062'
+    - 23
+  - - 77
+    - ericarsenault6@gmail.com
+    - '2012-11-17 20:49:16.614834'
+    - '2012-11-17 20:49:16.614834'
+    - 1
+  - - 78
+    - ericarsenault6@gmail.com
+    - '2012-11-17 20:55:05.967524'
+    - '2012-11-17 20:55:05.967524'
+    - 1
+
+---
+authentications:
+  columns:
+  - id
+  - user_id
+  - provider
+  - uid
+  - created_at
+  - updated_at
+  records: 
+  - - 8
+    - 23
+    - twitter
+    - '741085200'
+    - '2012-11-14 20:50:09.070661'
+    - '2012-11-14 20:50:09.070661'
+
+---
+items:
+  columns:
+  - id
+  - name
+  - cost
+  - created_at
+  - updated_at
+  - petition_id
+  - pictures
+  - description
+  - launched
+  - home
+  - book
+  - fun
+  - food
+  - fitness
+  records: 
+  - - 7
+    - Aluminum Bottle
+    - 1999
+    - '2012-11-10 20:57:15.168392'
+    - '2012-11-10 20:57:15.168392'
+    - 62
+    - aluminum_bottle.jpg
+    - This is an aluminum bottle which does not leach BPA and ...
+    - 'yes'
+    - 'yes'
+    - 
+    - 
+    - 'yes'
+    - 'yes'
+  - - 8
+    - Health Shake
+    - 2499
+    - '2012-11-11 00:48:38.940441'
+    - '2012-11-11 00:48:38.940441'
+    - 52
+    - shakes.jpg
+    - This is a tasty shake that is 100%....
+    - 'yes'
+    - 
+    - 
+    - 
+    - 'yes'
+    - 'yes'
+  - - 9
+    - Nicorettes
+    - 1499
+    - '2012-11-11 00:51:47.445223'
+    - '2012-11-11 00:51:47.445223'
+    - 53
+    - antismoking.jpg
+    - This will help...
+    - 'yes'
+    - 'yes'
+    - 
+    - 
+    - 
+    - 
+  - - 10
+    - Eco Cleaners
+    - 1299
+    - '2012-11-11 00:53:23.861737'
+    - '2012-11-11 00:53:23.861737'
+    - 55
+    - eco_cleaners.jpg
+    - These cleaners work very well...
+    - 'yes'
+    - 'yes'
+    - 
+    - 
+    - 
+    - 
+  - - 11
+    - Eco Energy
+    - 
+    - '2012-11-11 00:54:54.672931'
+    - '2012-11-11 00:54:54.672931'
+    - 57
+    - bullfrogpower.jpg
+    - ''
+    - 'yes'
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - 12
+    - Eco Cosmetics
+    - 1299
+    - '2012-11-11 01:08:46.472508'
+    - '2012-11-11 01:08:46.472508'
+    - 56
+    - eco__cosmetics.jpg
+    - This product is 100% natural. You can even eat it!
+    - 'yes'
+    - 'yes'
+    - 
+    - 
+    - 
+    - 
+  - - 13
+    - Painting Set
+    - 3499
+    - '2012-11-11 01:10:00.303731'
+    - '2012-11-11 01:10:00.303731'
+    - 63
+    - painting_set.jpg
+    - This is a really awesome painting set.
+    - 'yes'
+    - 
+    - 
+    - 'yes'
+    - 
+    - 
+  - - 14
+    - Know Your Fats Book
+    - 1299
+    - '2012-11-11 01:12:10.397172'
+    - '2012-11-11 01:12:10.397172'
+    - 61
+    - knowyourfats_book.jpg
+    - This book is great!
+    - 'yes'
+    - 
+    - 'yes'
+    - 
+    - 
+    - 
+  - - 15
+    - Olive oil soap
+    - 1399
+    - '2012-11-17 23:49:08.777268'
+    - '2012-11-17 23:49:08.777268'
+    - 55
+    - soap.png
+    - ! "This luxurious unscented all-vegetable bar is anointed with olive oil. Makes
+      a great shaving bar!\r\n\r\nRich in linoleic fatty acids, olive oil is revered
+      for its skin softening properties. The Soap Works super fats this soap by adding
+      extra, virgin olive oil.\r\n\r\nMade in Canada"
+    - 'yes'
+    - 'yes'
+    - 
+    - 
+    - 
+    - 

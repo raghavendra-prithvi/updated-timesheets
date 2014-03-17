@@ -1,0 +1,36 @@
+
+<div class="row centers">
+<h1>Admin Home</h1>
+</div>
+
+<style>
+ #main {
+   margin:0 auto;
+   text-align:center;
+   padding-right:20px;
+   border-right: 1px solid #ccc;
+  }
+  .btn-large{
+    width:120px;
+  }
+</style>
+<div class="row">
+  <div class="span6" id="main">
+          <br />
+          <div class="row">
+              <%=link_to "Modify Users", "/admin/users", :class=>"btn btn-youtube btn-large active" %>
+          </div>
+</div>
+<div class="span4" id="main" style="border-right:none">
+    <br />
+    <div class="row">
+        <%=link_to "Modify Projects", "/admin/projects", :class=>"btn btn-youtube btn-large active" %>
+    </div>
+</div>
+</div>
+
+
+
+
+
+

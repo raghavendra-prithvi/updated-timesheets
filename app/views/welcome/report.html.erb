@@ -1,0 +1,249 @@
+<% if session[:user_id] %>
+  <%@user = User.find(session[:user_id]) %>	
+  <div class="row-fluid">
+    <header class="span12 hero-unit">
+      <%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
+
+      <h2>Hi <%= @user.name %>, Please Enter The Time Sheets For <span id="currentMonth"/> </h2>
+    </header>
+  </div>
+
+  <!-- **************************************************************************** -->
+  <!-- Log out Button-->
+  <script>
+  
+</script>
+  <div class="container">
+    <!-- Log out button -->
+    <div class="row">
+		<div class="col-lg-11"></div>
+	 	<div class="col-lg-1"><h5> <a href="/signout">Log Out</a></h5>
+    		<form action="/welcome/index"> 
+    			<input type="submit" class="btn btn-large btn-primary btn-success" value="Back to Time Input"/>
+    		</form>	
+    	</div>
+	</div>
+  </div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12"> 
+ 			<tbody>
+ 				<div class="row">
+                <tr>
+                  <td> <input class = "datePicker" id="txtDate"/><input class="datePicker hidden" id="altDate"    </td>
+
+				  
+				  <td> <label>View Options: </label></td>
+
+ <td> <select class="selectpicker projectReport"> <option value="weekly" >Weekly</option>
+                  		<option value="monthly" >Monthly</option>  
+                   	<option value="yearly" >Yearly</option>   </select></td> 
+  <td><button type="button" class="btn btn-default changeDate" value="prev">Prev</button></td>
+ <td>  <button type="button" class="btn btn-default changeDate" value="next">Next</button></td>
+				 
+
+
+
+				 
+				
+                </tr>
+              	
+              </tbody>
+		</div>
+	</div>
+	<div class ="row">
+		<div class="col-lg-6">
+ 			<table class="table  projectTable table-striped table-bordered">	
+              	<tbody>
+              		<tr> </tr>
+                  </tbody>
+          	</table>
+        </div>
+    		
+	</div>
+
+</div>
+
+
+
+		
+
+
+  
+<script type="text/javascript">
+  $(document).ready(function(){
+
+
+  var months = [ "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December" ];
+    $("#txtDate").datepicker({ altField:  '#altDate', altFormat: 'yy-mm-dd', 
+    	showOtherMonths: true, selectOtherMonths: true, firstDay: 1,
+    	onSelect: function() {
+        	var selectedDate = $("#txtDate").datepicker('getDate');
+          	var selectedMonthName = months[selectedDate.getMonth()];
+		  	$("#currentMonth").html(selectedMonthName);
+		  	$('.projectReport').trigger('change');
+
+
+		 }
+		});
+      $('#txtDate').datepicker('setDate', 'today');
+      var toDayDate = $("#txtDate").datepicker('getDate');
+      var todayMonthName = months[toDayDate.getMonth()];
+      $("#currentMonth").html(todayMonthName);
+      $('.projectReport').val('weekly');
+
+
+
+
+$('.changeDate').click( function() { 
+    var currentDate = $("#txtDate").datepicker('getDate');
+	var	newDate = new Date();
+	if ($(this).val() == 'prev') {
+		var changeNum = -7;
+	}
+	else{
+		var changeNum = 7;
+	}	
+		newDate.setDate(currentDate.getDate() + changeNum);
+		$('#txtDate').datepicker('setDate', newDate);
+	  	$('.projectReport').trigger('change');
+
+		
+});
+
+
+		
+  $('.projectReport').change(
+		function() {
+			var todayValue = $("#altDate").val();
+			var viewValue =  $(this).val();
+			dataStr = "today=" + todayValue + "&view=" + viewValue;
+			$.ajax({
+          		method: 'GET',
+          		data: dataStr,
+          		url: '/projectReport',
+          		dateType: 'json',
+          		success: function(data){
+   			     	$(".projectTable").find("tr:gt(0)").remove();
+					if (viewValue == "weekly") {
+						$.each(data, function (i, obj) {
+							var totalHours = [];
+
+							if (obj.start) {
+							   	jStart = new Date(obj.start);
+								
+            					var indexDate = new Date(jStart);
+								var firstRow = '<tr><td>Project Details</td>';
+								
+								for (i=0; i<7; i++) {
+									var startDate = $.format.date(indexDate, "ddd, M/d/yy");
+									firstRow += '<td>' + startDate + '</td>';
+									indexDate = new Date(indexDate.setDate(indexDate.getDate()+1));
+								}
+								
+								firstRow += '</tr>';
+								$('.projectTable > tbody:last').append(firstRow);            			
+
+            				}
+            				else if (obj.totals) {
+            					totalString = '<tr><td>Total: </td>';
+            					for (i = 0; i<7; i++) {
+            						totalString += '<td>' + obj.totals[i] + '</td>';
+            					}
+            					totalString += '</tr>';
+            				}
+            				else {
+            					var nextRow = '<tr><td>' + obj.name + '</td>';
+            					var indexDate = new Date(jStart);
+            					var dayCount = 0;
+            					$.each(obj.info, function (ind, value) {
+            						var dataDate = new Date(value.pDate);
+            						while (indexDate.getDate() != dataDate.getDate()) {
+            								
+            									nextRow +='<td></td>';
+            								
+            								dayCount++;
+
+            								indexDate = new Date(indexDate.setDate(indexDate.getDate()+1));
+            								}
+            							nextRow += '<td>' + value.pHours + '</td>';
+            							indexDate = new Date(indexDate.setDate(indexDate.getDate()+1));
+										dayCount++;
+
+            							});	
+            							for (dayCount; dayCount<7; dayCount++) {
+            								nextRow +='<td></td>';
+            							}
+            						nextRow += '</tr>';
+									$('.projectTable > tbody:last').append(nextRow);   
+									}
+								});
+								
+								$('.projectTable > tbody:last').append(totalString);   
+
+								
+								
+							}
+							
+            			
+            		else if (viewValue == "monthly") {
+            			$.each(data, function (i, obj) {
+            				jDate = new Date(obj.dates);
+            				if (i==0) {
+            					var month = $.format.date(jDate, "MMMM, yyyy");
+                   				var monthRow = '<tr><td><b>Month of ' + month + ':</b></td><td></td><td></td><tr>'; 
+								$('.projectTable > tbody:last').append(monthRow);
+							}                   				
+            				$.each(obj.projects, function (i, value) {
+            					var day = $.format.date(jDate, "MM/dd/yy");
+            					if (i==0) {
+									var dateString = '<tr><td>' + day + '</td><td></td><td></td><tr>';
+									$('.projectTable > tbody:last').append(dateString);
+								}
+	           					var projectString = '<tr><td></td><td>' + value.name + '</td><td>' + value.hours + '</td><tr>';
+								$('.projectTable > tbody:last').append(projectString);            			
+								});
+							});
+            		
+            		}
+            		else  if (viewValue == "yearly") {
+            			$.each(data, function (i, obj) {
+            				$.each(obj.projects, function (i, value) {
+            					if (i==0){
+            					var dateString = '<tr><td>' + obj.dates + '</td>' + '<td>' + value.name + '</td>' + '<td>' + value.hours + '</td><tr>';
+            					}
+            					else {
+            					var dateString = '<tr><td></td>' + '<td>' + value.name + '</td>' + '<td>' + value.hours + '</td><tr>';
+            					}
+								$('.projectTable > tbody:last').append(dateString);            			
+								});
+							});
+            		
+            		
+            		}
+            		
+            			
+            		},
+            			
+              		
+            	failure: function(){
+              		alert("Unable to load the today values.");
+           		}
+        	});
+
+		
+		}
+	);
+	      $('.projectReport').trigger('change');
+
+
+    
+     
+     
+
+    });
+
+  </script>
+<%end%>
